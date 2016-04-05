@@ -35,3 +35,23 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$( document ).ready(function() {
+    resizeBg();
+});
+
+$( window ).resize(function() {
+   resizeBg();
+});
+
+function resizeBg() {
+    var windowWidth = $( "header" ).width();
+    var windowHeight = $( "header"  ).height();
+    var bgAspectRatio = 960 / 540;
+    var windowAspectRatio = windowWidth / windowHeight;
+    if (windowAspectRatio > bgAspectRatio) {
+        $( "header" ).css( "background-size", "100% auto" );
+    } else {
+        $( "header" ).css( "background-size", "auto 100%" );
+    }
+}
