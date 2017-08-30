@@ -47,7 +47,7 @@ $( window ).resize(function() {
 function resizeBg() {
     var windowWidth = $( "header" ).width();
     var windowHeight = $( "header"  ).height();
-    var bgAspectRatio = 960 / 540;
+    var bgAspectRatio = 4032 / 3024;
     var windowAspectRatio = windowWidth / windowHeight;
     if (windowAspectRatio > bgAspectRatio) {
         $( "header" ).css( "background-size", "100% auto" );

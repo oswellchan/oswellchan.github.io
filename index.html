@@ -102,8 +102,7 @@
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 textstuff">
                     <p class="text-center">Hi there. I'm <b>Oswell Chan</b>.</p>
-                    <p>I'm a Computer Science graduate from NUS, trying to learn as much as possible about the Computing industry. I have experience making desktop apps, web apps and some game development. I have a budding interest in automation (I tried making a bot to play Neopets' <a href="http://www.neopets.com/games/ghoulcatchers/">Ghoul Catchers</a>).</p>
-                    <p>The subject of my fancy right now is TensorFlow. I've just started learning, so hopefully everything goes well.</p>
+                    <p>I'm a Computer Science graduate from NUS, trying to learn as much as possible about the Computing industry. I have experience making desktop apps, web apps and some game development. I have a budding interest in automation to squeeze a bit more efficiency out of life.</p>
                     <p>Feel free to look around and <span class="page-scroll"><a href="footer">contact me</a></span> below!</p>
                 </div>
             </div>
@@ -163,7 +162,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 portfolio-item">
+                <div class="col-md-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pydata.jpeg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Talk at PyData Meetup</h4>
+                        <p class="text-muted">Talk at PyData Singapore Meetup on OCR</p>
+                    </div>
+                </div>    
+                <div class="col-md-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -177,6 +190,9 @@
                         <p class="text-muted">Collaborative bill splitting web app with OCR receipt scanning</p>
                     </div>
                 </div>
+            </div>       
+            <div class="clearfix"></div>
+            <div class="row">
                 <div class="col-md-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -191,9 +207,6 @@
                         <p class="text-muted">Microsoft PowerPoint addon. Impressive presentations made easy.</p>
                     </div>
                 </div>
-            </div>       
-            <div class="clearfix"></div>
-            <div class="row">
                 <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -208,6 +221,9 @@
                         <p class="text-muted">NUS Student Life Hacks</p>
                     </div>
                 </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
                 <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -224,22 +240,6 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="row">
-            	<div class="col-md-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/gently.png" class="img-responsive box-shadow" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Gently</h4>
-                        <p class="text-muted">Real-time game streaming service</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -284,6 +284,52 @@
     </div>
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Talk at PyData Singapore Meetup</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/pydata.jpeg" class="img-responsive img-centered" alt="">
+                            <p>The talk covers the use of Google’s Tesseract Optical Character Recognition (OCR) Engine to convert scans and images of text into machine-encoded text.</p>
+                            <p>One of the libraries used is tesserocr, a Python wrapper for Tesseract API, to achieve OCR the Pythonic way.</p>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="img/portfolio/pydata1.jpg" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/pydata1.jpg"></a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="img/portfolio/pydata2.jpg" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/pydata2.jpg"></a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="img/portfolio/pydata3.jpg" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/pydata3.jpg"></a>
+                                </div>
+                            </div>
+                            <ul class="list-inline item-details">
+                                <li>Event details:
+                                    <strong><a href="https://www.meetup.com/PyData-SG/events/235981769/">PyData</a>
+                                    </strong>
+                                </li>
+                                <li>View Slides and Code At:
+                                    <strong><a href="https://github.com/kiangkuang/whopay">GitHub</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -408,46 +454,6 @@
                                 </li>
                                 <li>View Source At:
                                     <strong><a href="https://github.com/PowerPointLabs/PowerPointLabs">GitHub</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Gently</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/gently.png" class="img-responsive img-centered" alt="">
-                            <p>Gently is a streaming service similar to Twitch and Youtube Live Streaming. It uses a Content Delivery Network architecture for end-to-end real time streaming.</p>
-                            <p>Streamers can choose to stream with either popular video broadcasting tools like Open Broadcaster Software or with our own lightweight screen recorder that streams directly to our service.</p>
-                            <br>
-                            <div class="col-md-4">
-                                <a href="img/portfolio/gently1.png" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/gently1.png"></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="img/portfolio/gently2.png" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/gently2.png"></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="img/portfolio/gently3.png" target="_blank"><img class="img-responsive box-shadow" src="img/portfolio/gently3.png"></a>
-                            </div>
-                            <ul class="list-inline item-details">
-                                <li>View Source At:
-                                    <strong><a href="https://github.com/oswellchan/Gently">Gently</a>
                                     </strong>
                                 </li>
                             </ul>
